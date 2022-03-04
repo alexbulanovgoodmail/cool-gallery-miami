@@ -1,0 +1,53 @@
+/* USER VARIABLES SECTION */
+:root {
+  --accent: #cc8869;
+  --dark: #000;
+  --regular-text: 20px;
+  --lineheight: 140%;
+  --userfont: Roboto, sans-serif;
+  --systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --padding: 20px;
+  --transition: cubic-bezier(0.4, 0, 0, 1);
+}
+
+/* GENERAL CSS SETTINGS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-size: var(--regular-text);
+  font-weight: 300;
+  line-height: var(--lineheight);
+}
+
+body {
+  color: var(--dark);
+}
+
+.lock {
+  overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 var(--padding);
+}
