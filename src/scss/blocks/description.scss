@@ -1,0 +1,30 @@
+.description {
+  position: absolute;
+  top: 20vh;
+  left: 8vw;
+  max-width: 50vw;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-size: 1em;
+  transition: opacity var(--transition), transform var(--transition);
+
+  p {
+    opacity: 0.9;
+    transition: transform var(--transition);
+    transition-duration: 3s;
+  }
+
+  &.hidden {
+    opacity: 0;
+    transform: translateY(5vh);
+  }
+
+  &.hidden p {
+    transform: translateY(2vh);
+  }
+}
+
+@media screen and (min-width: $md) {
+  .description {
+    max-width: 24vw;
+  }
+}

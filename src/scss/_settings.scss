@@ -1,13 +1,15 @@
 /* USER VARIABLES SECTION */
 :root {
   --accent: #cc8869;
-  --dark: #000;
-  --regular-text: 20px;
-  --lineheight: 140%;
+  --white: #ffffff;
+  --dark: #070707;
+  --sizeindex: calc(1vw + 1vh);
+  --regular-text: 1em;
+  --lineheight: 1em;
   --userfont: Roboto, sans-serif;
   --systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
   --padding: 20px;
-  --transition: cubic-bezier(0.4, 0, 0, 1);
+  --transition: 0.75s cubic-bezier(0.2, 0.6, 0, 1);
 }
 
 /* GENERAL CSS SETTINGS */
@@ -17,15 +19,17 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
-  font-size: var(--regular-text);
-  font-weight: 300;
-  line-height: var(--lineheight);
-}
-
+html,
 body {
-  color: var(--dark);
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+  color: var(--white);
+  background-color: var(--dark);
+  overflow: hidden;
 }
 
 .lock {

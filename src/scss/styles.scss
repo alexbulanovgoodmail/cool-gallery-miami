@@ -1,4 +1,12 @@
+@import 'node_modules/swiper/swiper.scss';
 @import '_normalize';
 @import '_fonts';
 @import '_variables';
 @import '_settings';
+@import '_settings';
+
+// blocks
+
+@import 'blocks/slider.scss';
+@import 'blocks/description.scss';
+@import 'blocks/logo.scss';
