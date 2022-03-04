@@ -1,2 +1,2 @@
 # cool-gallery-miami
-галерея на HTML, CSS и JavaScript | CSS-анимация, Blur, Parallax, Gradient
+Галерея на HTML, CSS и JavaScript | CSS-анимация, Blur, Parallax, Gradient
